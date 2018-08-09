@@ -1,9 +1,14 @@
 * {
 	font-family: 'Dancing Script', cursive;
-	background-color: #02010a;
 	text-decoration: none;
 	max-width: 900px;
-	float: center;
+	margin: 0 auto;
+}
+
+body {
+	width: 900px;
+	background-color: #02010a;
+	display: inline-block;
 }
 
 img {
@@ -14,18 +19,27 @@ img {
 header {
 	background-color: #5b7989;
 	border-radius: 10px 10px 0 0;
+	display: inline-block;
+	width: 900px;
 }
 
 #titulo{
+	background: #5b7989;
 	color: #fff;
 	text-shadow: 2px #02010a;
+	float: left;
+	margin-left: 10px;
+	display: inline;
 }
 
 #menu{
-
+	background-color: #5b7989;
+	float: right;
+	margin-right: 10px;
+	display: inline;
 }
 
-body {
+#contenido{
 
 }
 
@@ -38,9 +52,63 @@ body {
 	background-color: #d5c75f;
 	border: 1px;
 	text-align: center;
+	display: flex;
 }
+
+.is-1{
+	display: inline;
+	flex-basis: 100%;
+}
+
+.is-1 >a>img{
+	transition: transform 1s;
+}
+
+.is-1 > a > img:hover{
+	box-shadow: 2px #82c3a6;
+	transform: rotate(10deg);
+}
+
+
+.is-2{
+	display: inline;
+	flex-basis: 100%;
+}
+
+.is-2 > a > img{
+	transition: transform 1s;
+}
+
+.is-2 > a > img:hover{
+	transform: translate(20px, -5px);
+}
+
 
 footer {
 	border-radius: 0 0 10px 10px;
 	background-color: #C6d5c5;
 }
+
+.pie-pagina{
+	display: flex;
+}
+
+#contenido {
+	text-align: center;
+	background-color:  #d5c75f;
+	display: flex;
+}
+
+.paisaje1{ margin: 5px 5px 5px 5px; filter: blur(10px);}
+.paisaje2{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
+.paisaje3{ margin: 5px 5px 5px 5px; filter: sepia(90%);}
+.paisaje4{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
+.paisaje5{ margin: 5px 5px 5px 5px;}
+.paisaje6{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
+
+.retrato1{ margin: 5px 5px 5px 5px; filter: blur(10px);}
+.retrato2{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
+.retrato3{ margin: 5px 5px 5px 5px; filter: sepia(90%);}
+.retrato4{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
+.retrato5{ margin: 5px 5px 5px 5px;}
+.retrato6{ margin: 5px 5px 5px 5px; filter: grayscale(100%);}
