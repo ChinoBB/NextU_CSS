@@ -7,6 +7,15 @@
 
 ul {
 	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: white;
+}
+
+a:visited{
+	color: white;
 }
 
 .row{
@@ -28,8 +37,9 @@ img {
 header {
 	background-color: #5b7989;
 	border-radius: 10px 10px 0 0;
-	display: inline-block;
+	display: flex;
 	width: 900px;
+	padding: 10px 0 10px 0;
 }
 
 #menu > a > h2{
@@ -40,6 +50,7 @@ header {
 #img-central{
 	background-color: #82c3a6;
 	text-align: center;
+	padding: 15px 0px 15px 0px;
 }
 
 .is-1 >a>img{
@@ -119,11 +130,16 @@ footer {
 
 	/* centro */
 
+	#contenido {
+		padding: 15px 0px 15px 0px;
+	}
+
 	#img-secundaria{
 		background-color: #d5c75f;
 		border: 1px;
 		text-align: center;
 		display: flex;
+		padding: 20px 0px 20px 0px;
 	}
 
 	.is-1{
@@ -146,6 +162,8 @@ footer {
 
 	.pie-pagina{
 		display: flex;
+		text-align: left;
+		padding-left: 20px;
 	}
 
 	.pie-col-1{
@@ -176,6 +194,17 @@ footer {
 		text-align: center;
 	}
 
+	header {
+		background-color: #5b7989;
+		border-radius: 10px 10px 0 0;
+		display: inline-block;
+		width: 900px;
+	}
+
+	#titulo{
+		color: #fff;
+	}
+
 	.rowhead{
 		width: 80%;
 	}
@@ -204,6 +233,7 @@ footer {
 		text-align: center;
 		display: block;
 		width: 100%;
+		padding: 20px 0px 20px 0px;
 	}
 
 	.colcon2{
@@ -224,6 +254,11 @@ footer {
 
 	footer {
 		width: 80%;
+	}
+
+	.pie-pagina{
+		text-align: left;
+		padding-left: 20px;
 	}
 
 	.pie-col-1{
